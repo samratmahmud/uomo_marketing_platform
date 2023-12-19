@@ -1,4 +1,5 @@
 import type {Config} from "tailwindcss";
+import {fontFamily} from "tailwindcss/defaultTheme";
 
 const config: Config = {
   content: [
@@ -11,6 +12,7 @@ const config: Config = {
       colors: {
         praimary: "#C32929",
         gray: {"400": "#767676", "500": "#E4E4E4", "900": "#222222"},
+        red: {"100": "#F5E6E0"},
       },
     },
     fontSize: {
@@ -26,6 +28,9 @@ const config: Config = {
       "5xl": ["30px", {lineHeight: "1.2rem"}],
       "6xl": ["35px", {lineHeight: "1.2rem"}],
       "7xl": ["40px", {lineHeight: "1.2rem"}],
+    },
+    fontFamily: {
+      SofiaPro: ["SofiaPro", ...fontFamily.sans],
     },
     backgroundImage: {
       100: "url('/images/images.jpeg')",

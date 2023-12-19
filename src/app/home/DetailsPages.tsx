@@ -5,24 +5,24 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const imagesGroup = [
-  "/images/s1.png",
-  "/images/s2.png",
-  "/images/s3.png",
-  "/images/s4.png",
-  "/images/s5.png",
-  "/images/s6.png",
-  "/images/s1.png",
-  "/images/s2.png",
-  "/images/s3.png",
-  "/images/s4.png",
-  "/images/s5.png",
-  "/images/s6.png",
-  "/images/s3.png",
-  "/images/s4.png",
-  "/images/s2.png",
+  "/images/d1.png",
+  "/images/d2.png",
+  "/images/d3.png",
+  "/images/d4.png",
+  "/images/d5.png",
+  "/images/d6.png",
+  "/images/d7.png",
+  "/images/d9.png",
+  "/images/d3.png",
+  "/images/d4.png",
+  "/images/d5.png",
+  "/images/d6.png",
+  "/images/d7.png",
+  "/images/d2.png",
+  "/images/d4.png",
 ];
 
-function ShopPages() {
+function DetailsPages() {
   const settings = {
     dots: true,
     infinite: false,
@@ -32,10 +32,10 @@ function ShopPages() {
   };
 
   return (
-    <section id="shop" className="bg-gray-500 pt-[85px] pb-[60px]">
+    <section id="detail" className="bg-white pt-[85px] pb-[60px]">
       <div className="container">
         <h2 className="text-6xl text-center mb-12">
-          SHOP <strong>PAGES</strong>
+          DETAILS <strong>PAGES</strong>
         </h2>
         <Slider {...settings}>
           {imagesGroup.map((image, index) => (
@@ -53,4 +53,4 @@ function ShopPages() {
   );
 }
 
-export default ShopPages;
+export default DetailsPages;

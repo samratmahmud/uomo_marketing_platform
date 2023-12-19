@@ -1,4 +1,8 @@
+import DetailsPages from "./home/DetailsPages";
 import Header from "./home/Header";
+import HeaderLayout from "./home/HeaderLayout";
+import MasonaryCard from "./home/MasonaryCard";
+import MobileOptimized from "./home/MobileOptimized";
 import ShopPages from "./home/ShopPages";
 import Demos from "./home/demosBuilt/Demos";
 
@@ -7,7 +11,11 @@ export default function Home() {
     <main>
       <Header />
       <Demos />
-      {/* <ShopPages /> */}
+      <ShopPages />
+      <DetailsPages />
+      <MasonaryCard />
+      <HeaderLayout />
+      <MobileOptimized />
     </main>
   );
 }

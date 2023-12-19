@@ -54,7 +54,7 @@ const DemosAllProps = [
 function DemosAll() {
   return (
     <section>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-3 gap-x-6">
         {DemosAllProps.map(({title, img}, index) => (
           <div key={index} className="group hover:-translate-y-4 duration-300">
             <div className="mb-4">

@@ -10,7 +10,7 @@ const DemosFurnitureProps = [
 function Furniture() {
   return (
     <section>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-3 gap-x-6">
         {DemosFurnitureProps.map(({title, img}, index) => (
           <div key={index} className="group hover:-translate-y-4 duration-500">
             <div className="mb-4">

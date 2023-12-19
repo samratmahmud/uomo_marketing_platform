@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("../fonts/style.css");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,6 +11,10 @@
   line-height: 1.2;
 }
 
+body {
+  @apply font-SofiaPro;
+}
+
 html {
-  scroll-behavior: smooth;
+  @apply scroll-smooth;
 }
