@@ -27,7 +27,7 @@ const navLink = [
 
 function Navbar() {
   return (
-    <nav className="fixed left-0 right-0">
+    <nav className="fixed left-0 right-0 bg-praimary">
       <div className="container flex items-center justify-between py-5">
         <div className="flex items-center gap-7">
           <div>

@@ -8,9 +8,9 @@ interface buttonProps {
 function Button(props: buttonProps) {
   const {name, amount} = props;
   return (
-    <div className="text-xs font-medium text-white uppercase bg-praimary p-2.5">
+    <div className="text-xs font-medium text-praimary uppercase bg-white p-2.5">
       {name}
-      <span className="leading-7 text-praimary bg-white px-2.5 py-1 ml-4">
+      <span className="leading-7 text-praimary bg-white px-2.5 py-[5px] ml-4 border border-praimary">
         {amount}
       </span>
     </div>

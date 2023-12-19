@@ -1,12 +1,13 @@
-import Image from "next/image";
 import Header from "./home/Header";
-import Demos from "./home/Demos";
+import ShopPages from "./home/ShopPages";
+import Demos from "./home/demosBuilt/Demos";
 
 export default function Home() {
   return (
     <main>
       <Header />
       <Demos />
+      {/* <ShopPages /> */}
     </main>
   );
 }

@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         praimary: "#C32929",
+        gray: {"400": "#767676", "500": "#E4E4E4", "900": "#222222"},
       },
     },
     fontSize: {
