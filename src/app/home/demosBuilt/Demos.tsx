@@ -45,11 +45,11 @@ function Demos() {
 
   return (
     <section id="demos" className="bg-white">
-      <div className="container pt-20 pb-10">
-        <h2 className="text-6xl text-center mb-9">
+      <div className="container xl:pt-20 pt-10 xl:pb-10 pb-7">
+        <h2 className="xl:text-6xl text-3xl text-center xl:mb-9 mb-7">
           PRE-BUILT <strong>DEMOS</strong>
         </h2>
-        <div className="flex justify-between gap-12 mb-[60px] px-6">
+        <div className="flex flex-wrap justify-center xl:justify-between md:gap-x-12 gap-x-5 md:gap-y-5 gap-y-2.5 mb-[60px] md:px-6 px-2.5">
           {DemosItem.map(({itemName, pageNum, itemIink}, index) => (
             <DemosItems
               itemName={itemName}

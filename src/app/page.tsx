@@ -13,10 +13,10 @@ export default function Home() {
     <main>
       <Header />
       <Demos />
-      {/* <ShopPages /> */}
-      {/* <DetailsPages /> */}
-      {/* <MasonaryCard /> */}
-      {/* <HeaderLayout /> */}
+      <ShopPages />
+      <DetailsPages />
+      <MasonaryCard />
+      <HeaderLayout />
       {/* <MobileOptimized /> */}
       {/* <Features /> */}
       {/* <Footer /> */}

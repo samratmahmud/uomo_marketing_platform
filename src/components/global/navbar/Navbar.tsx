@@ -52,7 +52,7 @@ function Navbar() {
         <div className="flex lg:flex-row flex-col items-center gap-7">
           <Link href="/" className="relative">
             <img src="/images/logo.png" alt="" />
-            <hr className="w-6 h-6 rounded-full bg-white absolute top-[7%] right-0" />
+            <hr className="w-6 h-6 rounded-full bg-white absolute top-[7%] right-0 hidden lg:block" />
           </Link>
           <div className="flex flex-wrap justify-center lg:justify-start xl:gap-10 gap-x-6 gap-y-3 lg:gap-y-0">
             {navLink.map(({link, name}, index) => (
