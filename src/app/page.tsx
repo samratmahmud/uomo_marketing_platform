@@ -1,4 +1,6 @@
 import DetailsPages from "./home/DetailsPages";
+import Features from "./home/Features";
+import Footer from "./home/Footer";
 import Header from "./home/Header";
 import HeaderLayout from "./home/HeaderLayout";
 import MasonaryCard from "./home/MasonaryCard";
@@ -11,11 +13,13 @@ export default function Home() {
     <main>
       <Header />
       <Demos />
-      <ShopPages />
-      <DetailsPages />
-      <MasonaryCard />
-      <HeaderLayout />
-      <MobileOptimized />
+      {/* <ShopPages /> */}
+      {/* <DetailsPages /> */}
+      {/* <MasonaryCard /> */}
+      {/* <HeaderLayout /> */}
+      {/* <MobileOptimized /> */}
+      {/* <Features /> */}
+      {/* <Footer /> */}
     </main>
   );
 }

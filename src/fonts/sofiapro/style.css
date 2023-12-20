@@ -1,0 +1,48 @@
+@font-face {
+  src: url("./Sofia\ Pro\ Regular\ \(1\).ttf");
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  src: url("./Sofia\ Pro\ Regular\ Italic.ttf");
+  font-family: "Sofia Pro";
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  src: url("./Sofia\ Pro\ Medium.ttf");
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  src: url("./SofiaPro-MediumItalic.ttf");
+  font-family: "Sofia Pro";
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  src: url("./SofiaPro-SemiBold.ttf");
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  src: url("./SofiaPro-SemiBoldItalic.ttf");
+  font-family: "Sofia Pro";
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  src: url("./Sofia\ Pro\ Bold.ttf");
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  src: url("./SofiaPro-BoldItalic.ttf");
+  font-family: "Sofia Pro";
+  font-style: italic;
+  font-weight: 700;
+}

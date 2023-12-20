@@ -28,9 +28,10 @@ const config: Config = {
       "5xl": ["30px", {lineHeight: "1.2rem"}],
       "6xl": ["35px", {lineHeight: "1.2rem"}],
       "7xl": ["40px", {lineHeight: "1.2rem"}],
+      "8xl": ["13px", {lineHeight: "1.8rem"}],
     },
     fontFamily: {
-      SofiaPro: ["SofiaPro", ...fontFamily.sans],
+      SofiaPro: ["Sofia Pro", ...fontFamily.sans],
     },
     backgroundImage: {
       100: "url('/images/images.jpeg')",
@@ -40,12 +41,12 @@ const config: Config = {
       padding: {
         DEFAULT: "1rem",
       },
-      screens: {
-        sm: "600px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1232px",
-      },
+    },
+    screens: {
+      sm: "600px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
     },
   },
   plugins: [],

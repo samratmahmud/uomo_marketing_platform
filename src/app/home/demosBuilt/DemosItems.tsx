@@ -25,11 +25,9 @@ function DemosItems(props: DemosItemprops) {
           {itemName}
         </div>
         {pageNum && (
-          <div>
-            <span className="w-5 h-5 bg-praimary text-white text-[12px] rounded-full flex items-center justify-center">
-              {pageNum}
-            </span>
-          </div>
+          <span className="w-5 h-5 bg-praimary text-white text-[11px] rounded-full flex items-center justify-center">
+            {pageNum}
+          </span>
         )}
       </div>
     </Link>

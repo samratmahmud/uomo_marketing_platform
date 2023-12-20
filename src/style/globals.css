@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("../fonts/style.css");
+@import url("../fonts/sofiapro/style.css");
 
 * {
   box-sizing: border-box;

@@ -22,7 +22,7 @@ const navLink = [
   },
   {
     name: "Features",
-    link: "/",
+    link: "#features",
   },
 ];
 
@@ -47,22 +47,21 @@ function Navbar() {
   const [tab, setTab] = useState(-1);
 
   return (
-    <nav className={`fixed left-0 right-0 bg-praimary`}>
-      <div className="container flex items-center justify-between py-5">
-        <div className="flex items-center gap-7">
-          <div>
+    <nav className={`lg:fixed left-0 right-0 lg:bg-praimary`}>
+      <div className="container flex items-center justify-center lg:justify-between py-5">
+        <div className="flex lg:flex-row flex-col items-center gap-7">
+          <Link href="/" className="relative">
             <img src="/images/logo.png" alt="" />
-          </div>
-          <div className="flex gap-10">
+            <hr className="w-6 h-6 rounded-full bg-white absolute top-[7%] right-0" />
+          </Link>
+          <div className="flex flex-wrap justify-center lg:justify-start xl:gap-10 gap-x-6 gap-y-3 lg:gap-y-0">
             {navLink.map(({link, name}, index) => (
               <Link
                 href={link}
                 key={index}
                 onClick={() => setTab(index)}
-                className={`text-xs text-white ${
-                  tab === index
-                    ? "underline decoration-2 underline-offset-2"
-                    : ""
+                className={`text-xs text-white uppercase ${
+                  tab === index ? "underline underline-offset-2" : ""
                 }`}
               >
                 {name}
@@ -70,9 +69,9 @@ function Navbar() {
             ))}
           </div>
         </div>
-        <div>
+        <Link href="/" className="hidden lg:block">
           <Button name="Purchase Theme" amount="$15" />
-        </div>
+        </Link>
       </div>
     </nav>
   );
