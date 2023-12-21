@@ -10,7 +10,7 @@ function Button(props: buttonProps) {
   const {name, amount, Theme = "white"} = props;
   return (
     <div
-      className={`text-xs font-medium uppercase p-2.5 pl-3.5 ${
+      className={`text-xs font-medium uppercase py-[11px] px-2.5 pl-3.5 ${
         Theme === "white" ? "bg-white text-praimary" : "bg-praimary text-white"
       }`}
     >

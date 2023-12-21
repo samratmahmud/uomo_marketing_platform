@@ -17,9 +17,9 @@ export default function Home() {
       <DetailsPages />
       <MasonaryCard />
       <HeaderLayout />
-      {/* <MobileOptimized /> */}
-      {/* <Features /> */}
-      {/* <Footer /> */}
+      <MobileOptimized />
+      <Features />
+      <Footer />
     </main>
   );
 }

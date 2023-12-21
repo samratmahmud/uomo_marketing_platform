@@ -5,7 +5,7 @@ import React from "react";
 const pageDetails = [
   {
     title: "HOME PAGES",
-    items: "12",
+    items: "16",
   },
   {
     title: "SHOP PAGES",
