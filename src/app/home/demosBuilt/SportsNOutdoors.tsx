@@ -1,4 +1,5 @@
 import React from "react";
+import DemosCardItem from "./DemosCardItem";
 
 const DemosAllProps = [
   {
@@ -12,14 +13,7 @@ function SportsNOutdoors() {
     <section>
       <div className="grid grid-cols-3 gap-x-6">
         {DemosAllProps.map(({title, img}, index) => (
-          <div key={index} className="group hover:-translate-y-4 duration-500">
-            <div className="mb-4">
-              <img src={img} alt="" />
-            </div>
-            <p className="text-md font-semibold mb-10 group-hover:text-praimary">
-              {title}
-            </p>
-          </div>
+          <DemosCardItem title={title} img={img} key={index} />
         ))}
       </div>
     </section>

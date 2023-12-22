@@ -6,6 +6,7 @@ import Fashion from "./Fashion";
 import FoodNGrocery from "./FoodNGrocery";
 import Furniture from "./Furniture";
 import SportsNOutdoors from "./SportsNOutdoors";
+import Electronics from "./Electronics";
 
 const DemosItem = [
   {
@@ -52,12 +53,12 @@ function Demos() {
         <div className="flex flex-wrap justify-center xl:justify-between md:gap-x-12 gap-x-5 md:gap-y-5 gap-y-2.5 mb-[60px] md:px-6 px-2.5">
           {DemosItem.map(({itemName, pageNum, itemIink}, index) => (
             <DemosItems
+              key={index}
               itemName={itemName}
               pageNum={pageNum}
               itemIink={itemIink}
               isActive={tab === index}
               handelClick={() => setTab(index)}
-              key={index}
             />
           ))}
         </div>
@@ -65,7 +66,7 @@ function Demos() {
         <div>{tab === 1 && <Fashion />}</div>
         <div>{tab === 2 && <Furniture />}</div>
         <div>{tab === 3 && <SportsNOutdoors />}</div>
-        <div>{tab === 4 && <SportsNOutdoors />}</div>
+        <div>{tab === 4 && <Electronics />}</div>
         <div>{tab === 5 && <FoodNGrocery />}</div>
       </div>
     </section>
