@@ -39,7 +39,8 @@ const config: Config = {
       SofiaPro: ["Sofia Pro", ...fontFamily.sans],
     },
     backgroundImage: {
-      100: "url('/images/images.jpeg')",
+      100: "url('/images/bg-header (1).jpg')",
+      200: "url('/images/bg-mobile.png')",
     },
     container: {
       center: true,
@@ -52,6 +53,7 @@ const config: Config = {
       md: "768px",
       lg: "992px",
       xl: "1200px",
+      "2xl": "1700px",
     },
   },
   plugins: [],

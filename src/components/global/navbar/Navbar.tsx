@@ -47,9 +47,11 @@ function Navbar() {
   const [tab, setTab] = useState(-1);
 
   return (
-    <nav className={`lg:fixed left-0 right-0 lg:bg-praimary z-[1020]`}>
+    <nav
+      className={`lg:fixed left-0 right-0 lg:bg-praimary z-[1020] mb-3 lg:mb-0`}
+    >
       <div className="container flex items-center justify-center lg:justify-between py-5">
-        <div className="flex lg:flex-row flex-col items-center gap-7">
+        <div className="flex lg:flex-row flex-col items-center gap-5 lg:gap-7">
           <Link href="/" className="relative">
             <img src="/images/logo.png" alt="" />
             <hr className="w-6 h-6 rounded-full bg-white absolute top-[7%] right-0.5 hidden lg:block" />
